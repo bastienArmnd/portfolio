@@ -34,7 +34,6 @@ tl0.to('.helloText', 1.5, {y:-150, opacity: 0, ease: Power4.easeInOut});
 
 const helloScene = new ScrollMagic.Scene({
     triggerElement: ".scrollTriggerDiv",
-    start: "center center",
     triggerHook: "onEnter",
 
 })
@@ -62,7 +61,6 @@ const scene = new ScrollMagic.Scene({
 
 var tl2 = new TimelineMax()
     .add(TweenMax.from('.profilePicture', 1.5, {y:+40, opacity: 0, ease: Power4.easeInOut}), "first")
-    .add(TweenMax.from('.profileTextHey', 1.5, {y:+80, opacity: 0, ease: Power4.easeInOut}), "first")
     .add(TweenMax.from('.profileText', 2, {y:+80, opacity: 0, ease: Power4.easeInOut}), "first")
 
 const controller2 = new ScrollMagic.Controller();
