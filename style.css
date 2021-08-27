@@ -14,21 +14,13 @@
     outline: solid #f00 1px !important;
 } */
 
-@font-face {
-    font-family: 'al_leporsche_personaluseonlRg';
-    src: url('./fonts/al_leporsche_personaluseonly-webfont.woff2') format('woff2'),
-         url('./fonts/al_leporsche_personaluseonly-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .html {
     background: url(./img/DSC01592_changi3.png) no-repeat 
         center center fixed; 
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 body {
@@ -98,14 +90,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.wrapper {
-    height: 200vh;
-}
-
-.container img {
-    max-width: 100%;
 }
 
 /* ------- */
@@ -207,7 +191,6 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    /* background-image: linear-gradient(to left,#ddddddbb, #110d029c); */
     background-attachment: fixed;
     opacity: 0.15;
     z-index: -1;
@@ -215,16 +198,11 @@ p {
 }
 
 .scrollTriggerDiv {
-    /* background-color: white; */
-    /* height: 1px; */
     margin-bottom: 1px;
 }
 
 .scrollTriggerDivTwo {
     margin-bottom: 1px;
-    /* background-color: white; */
-    /* height: 1px; */
-    /* margin-bottom: 1px; */
 }
 
 
@@ -274,8 +252,6 @@ p {
 .leftPanel {
     position: relative;
     top: 50px;
-    width: 130px;
-    height: 120px; 
   }
   
 .leftPanel::before {
@@ -320,12 +296,7 @@ p {
 /* End Animation */
 
 #wrapper {
-    /* background-image: url(./img/marjan-blan-marjanblan-_kUxT8WkoeY-unsplash2.jpg); */
     backdrop-filter: blur(20px);
-    /* background-size: 110%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     position: relative;
     z-index: 0;
     height: 200vh;
@@ -471,7 +442,6 @@ p {
     width: 80vw;
     height: 100vh;
     border-radius: 1%;
-    /* transition: all .5s ease-in-out; */
 
     white-space: nowrap;
     overflow-y: hidden;
@@ -504,7 +474,6 @@ p {
 
 .project-bottom {
     position: relative;
-    /* padding-top: 20px; */
     height: 50%;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -517,7 +486,6 @@ p {
 
 .card {
     position: absolute;
-    /* display: inline-block; */
     border: 1px solid #f7f7f7;
     background-color: rgb(114, 114, 114);
     width: 100%;
@@ -609,9 +577,6 @@ p {
     padding: 10px;
     position: absolute;
     height: 200px;
-    
-    /* top: 75%;
-    transform: translateY(-75%); */
 }
 
 .video-play-button {
@@ -644,9 +609,6 @@ p {
 }
 
 /* --- End Portfolio Section */
-
-
-
 
 
 
@@ -701,9 +663,6 @@ p {
         z-index: 0;
     }
 
-    /*  */
-
-    
     .profilePicture {
         position: absolute;
         align-items: center;
@@ -711,7 +670,6 @@ p {
         padding-top: 5%;
         padding-bottom: 5%;
         max-width: min(100vh, 70%);
-        /* max-height: min(80vw, 60%); */
     }
     
     .profilePicture-pic {
@@ -719,7 +677,6 @@ p {
         flex: 1;
         background-image: url(./img/DSC00903_2.JPG);
         background-position: 50% 50%;
-        /* padding-bottom: 60%; */
         max-width: 50%;
         max-height: 100%;
         margin: 10px;
@@ -753,34 +710,25 @@ p {
         display: flex;
         flex-direction:column; 
         flex:1;
-        /* align-content: flex-end; */
         bottom: 0;
         left: 0;
-        /* height: calc(20% + 5vw); */
         height: 50%;
         width: 70%;
         margin: 30px;
     }
 
     .inner-description h4 {
-        /* position: relative; */
-        /* bottom: 0; */
         margin-top: auto;
         left: 0;
     }
 
     .inner-description h3 {
-        /* position: relative; */
-        /* margin-top: auto; */
-        /* bottom: 0; */
         left: 0;
     }
 
     .project-top {
         position: relative;
         height: 100%;
-        /* top: 50%;
-        transform: translateY(-50%); */
     }
     
     .project-bottom {
