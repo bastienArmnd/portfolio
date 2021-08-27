@@ -717,6 +717,10 @@ p {
         margin: 30px;
     }
 
+    .inner-description.notAlone {
+        width: 90%;
+    }
+
     .inner-description h4 {
         margin-top: auto;
         left: 0;

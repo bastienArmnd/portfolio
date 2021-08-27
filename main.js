@@ -96,13 +96,13 @@ scrollableProject = document.querySelector('.scrolling-wrapper');
 const widthProject = scrollableProject.offsetWidth;
 
 
-// document.querySelector(".right-arrow-btn").addEventListener("click", () => {
-//     scrollableProject.scrollLeft += widthProject +1;
-// });
+document.querySelector(".right-arrow-btn").addEventListener("click", () => {
+    scrollableProject.scrollLeft += widthProject +1;
+});
 
-// document.querySelector(".left-arrow-btn").addEventListener("click", () => {
-//    scrollableProject.scrollLeft -= widthProject +1;
-// });
+document.querySelector(".left-arrow-btn").addEventListener("click", () => {
+   scrollableProject.scrollLeft -= widthProject +1;
+});
 
 
 //----------------------------------------------------------------------------
