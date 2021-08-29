@@ -14,6 +14,15 @@
     outline: solid #f00 1px !important;
 } */
 
+@media only screen 
+and (max-device-height : 1024px) 
+and (max-device-width : 1024px) {
+    .palette-primary.custom-background,
+    .boldgrid-section.background-fixed {
+        background-attachment: scroll !important;
+    }
+}
+
 body {
     justify-content: center;
     align-items: center;
@@ -143,7 +152,6 @@ p {
 
 #background {
     background-image: url(./img/DSC01592_changi3.png);
-    background-attachment: fixed;
     background-size: cover;
     background-position: 25% 50%;
     position: fixed;
@@ -182,7 +190,7 @@ p {
 }
 
 .menu-btn {
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     z-index: 1;
     animation: fade-inout 6s;
