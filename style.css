@@ -182,7 +182,7 @@ p {
 }
 
 .menu-btn {
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     z-index: 1;
     animation: fade-inout 6s;
