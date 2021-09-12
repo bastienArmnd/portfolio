@@ -155,8 +155,17 @@ jQuery("#video-play-button-khang").on('click',function(){
     }, 1000);
 });
 
+jQuery("#video-play-button-agEditChallenge").on('click',function(){
+    var video = jQuery("#video-agEditChallenge");
+    video.attr("src", video.data("autoplay-src") );
+
+    setTimeout(function (){
+        video.css("z-index", 1 )   
+    }, 1000);
+});
+
 function switchOffVideos() {
-    var names = ["audrey","khang"];
+    var names = ["audrey","khang", "agEditChallenge"];
     var arrayLength = names.length;
     for (var i = 0; i < arrayLength; i++) {
         var video = jQuery("#video"+"-"+names[i]);
